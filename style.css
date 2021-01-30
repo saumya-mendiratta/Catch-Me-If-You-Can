@@ -1,0 +1,26 @@
+body{
+background-color: #5166ce;
+background-image: url(https://wallpaperaccess.com/full/481666.jpg);
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+
+#box {
+    width: 10vw;
+    height: 10vw;
+    background-color: #19216b;
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    border:2px solid black;
+    border-radius: 50%;
+    box-shadow: 0px 0px 12px 0.1px lightgray;
+    justify-content: center;
+    align-items: center;
+}
+
+#box p {
+    font-family: cursive;
+    font-size: 1rem;
+    color: white;
+}
